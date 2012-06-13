@@ -6,6 +6,6 @@ zbar.on('data', function(buf) {
   console.log(buf.toString());
 });
 
-zbar.on('err', function(buf) {
+zbar.on('error', function(buf) {
   console.log(buf.toString());
 });
