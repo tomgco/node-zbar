@@ -1,4 +1,4 @@
-var Zbar = require('../zbar').createWatcher
+var Zbar = require('../zbar')
   , zbar = new Zbar('/dev/video0')
   ;
 

@@ -1,1 +1,1 @@
-module.exports = require('./lib/detector');
+module.exports = require('./lib/detector').createWatcher;
