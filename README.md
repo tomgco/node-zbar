@@ -5,10 +5,6 @@ node-zbar is a NodeJS binding to the ZBar QR Code library. Initially this will s
 ## Installation
 
 To use node-zbar, you will install the prerequisite of ZBar.
-
-For Mac OS X using homebrew:
-
-    port install zbar
     
 Compile from source see
 
