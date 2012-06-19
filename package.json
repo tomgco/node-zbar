@@ -1,4 +1,15 @@
 { "name": "zbar"
+,  "author": "Tom Gallacher"
+, "description": "Gzip middleware for Connect using the native zlib library in node >= 0.6"
+,  "repository":
+  { "type": "git"
+  , "url": "git://github.com/tomgco/node-zbar.git"
+  }
+, "keywords":
+  [ "qrcode"
+  , "qr"
+  , "scan"
+  ]
 , "version": "0.0.1"
 , "engine": "~0.6"
 , "dependencies":
