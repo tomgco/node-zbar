@@ -1,6 +1,6 @@
 { "name": "zbar"
 ,  "author": "Tom Gallacher"
-, "description": "Gzip middleware for Connect using the native zlib library in node >= 0.6"
+, "description": "node-zbar is a NodeJS binding to the ZBar QR Code library. Initially this will spawn a child process and monitor the output."
 ,  "repository":
   { "type": "git"
   , "url": "git://github.com/tomgco/node-zbar.git"
