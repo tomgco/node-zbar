@@ -1,6 +1,6 @@
 { "name": "zbar"
 ,  "author": "Tom Gallacher"
-, "description": "node-zbar is a NodeJS binding to the ZBar QR Code library. Initially this will spawn a child process and monitor the output."
+, "description": "node-zbar is a NodeJS binding to the ZBar QR Code library."
 ,  "repository":
   { "type": "git"
   , "url": "git://github.com/tomgco/node-zbar.git"
