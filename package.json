@@ -11,7 +11,7 @@
     "qr",
     "scan"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engine": "~0.6",
   "dependencies": {},
   "devDependencies": {
