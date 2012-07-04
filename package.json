@@ -12,7 +12,6 @@
     "scan"
   ],
   "version": "0.0.2",
-  "main": "./zbar.js",
   "engine": "~0.6",
   "dependencies": {},
   "devDependencies": {
