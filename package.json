@@ -1,23 +1,26 @@
-{ "name": "zbar"
-,  "author": "Tom Gallacher"
-, "description": "node-zbar is a NodeJS binding to the ZBar QR Code library."
-,  "repository":
-  { "type": "git"
-  , "url": "git://github.com/tomgco/node-zbar.git"
-  }
-, "keywords":
-  [ "qrcode"
-  , "qr"
-  , "scan"
-  ]
-, "version": "0.0.1"
-, "main": "./zbar.js"
-, "engine": "~0.6"
-, "dependencies":
-  {
-  }
-, "devDependencies":
-  { "mocha": "*"
-  , "should": "*"
+{
+  "name": "zbar",
+  "author": "Tom Gallacher",
+  "description": "node-zbar is a NodeJS binding to the ZBar QR Code library.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomgco/node-zbar.git"
+  },
+  "keywords": [
+    "qrcode",
+    "qr",
+    "scan"
+  ],
+  "version": "0.0.2",
+  "main": "./zbar.js",
+  "engine": "~0.6",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
   }
 }
