@@ -21,8 +21,20 @@ Then, require the module
 
 
 ## Usage
+```js
+var Zbar = require('zbar');
 
-    zbar.watch(device, [options], listener)
+zbar = new Zbar(device[, options]);
+
+
+zbar.stdout.on('data', function(buf) {
+  console.log('data scanned : ' + buf.toString());                                                                                                      
+});
+
+zbar.stderr.on('data', function(buf) {
+    console.log(buf.toString());
+});
+```
     
 Watch for data on device. `device` is a path to a supported webcam device. For example `/dev/video0`
 
@@ -34,13 +46,23 @@ The second argument is optional. The options if provided should be an object. Th
 
 `dataType` - can be `raw` or `xml`. default is `raw`
 
-The listener callback gets two arguments (error, data). Data is the data returned from a barcode.
+You should watch the `stdout` and `stderr` data.
 
 Example:
+```js
+var Zbar = require('zbar');
 
-    zbar.watch('/dev/video0', function (event) {
-      console.log('event is: ' + event);
-    });
+zbar = new Zbar('/dev/video0');
+
+
+zbar.stdout.on('data', function(buf) {
+  console.log('data scanned : ' + buf.toString());                                                                                                      
+});
+
+zbar.stderr.on('data', function(buf) {
+    console.log(buf.toString());
+});
+```
 
 ## Licence
 Licensed under the [New BSD License](http://opensource.org/licenses/bsd-license.php)
